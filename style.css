@@ -1,0 +1,81 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    height: 400px;
+    background-image: url(fan_img/banner1.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top: 15vmin;
+    padding-left: 10vmin;
+}
+
+.banner span {
+    border-right: 2px solid white;
+    color: #ffffff;
+}
+
+.banner h3 {
+    color: #1eb2a6;
+}
+#card_product{
+    box-shadow: 3px 5px 10px black;
+}
+
+.images {
+    height: 240px;
+    width: 240px;
+    position: relative;
+    /* border: 1px solid black; */
+    overflow: hidden;
+    margin: 10px;
+    margin-right: 20px;
+
+}
+
+.product-img1,
+.product-img2,
+.product-img3,
+.product-img4,
+#item {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.product-img1,
+.product-img2,
+.product-img3,
+.product-img4 {
+    display: none;
+    object-fit: cover;
+}
+
+.main-head{
+    color: #1eb2a6;
+}
+
+.btn-custom {
+    width: 30vmin;
+    padding: 6px 10px;
+    display: block;
+    margin: auto;
+    border: 2px solid #1eb2a6;
+}
+
+.btn-text {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-custom:hover .btn-text {
+    color: #ffffff;
+}
+
+.btn-custom:hover {
+    background-color: #1eb2a6;
+
+}
