@@ -23,15 +23,19 @@
 }
 #card_product{
     box-shadow: 3px 5px 10px black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .images {
-    height: 240px;
-    width: 240px;
+    width: 100%;
+    max-width: 240px;
+    aspect-ratio: 1/1;
     position: relative;
     overflow: hidden;
-    margin: 10px;
-    margin-right: 20px;
+    display: block;
+    margin: auto;
 
 }
 
@@ -43,6 +47,8 @@
     height: 100%;
     width: 100%;
     position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .product-img1,
@@ -55,12 +61,12 @@
 
 .main-head{
     color: #1eb2a6;
+    margin-top: 3vmin;
 }
 
 .btn-custom {
     width: 30vmin;
     padding: 6px 10px;
-    display: block;
     margin: auto;
     border: 2px solid #1eb2a6;
 }
