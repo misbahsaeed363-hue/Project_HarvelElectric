@@ -3,6 +3,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    /* font-family:   Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif" */
 }
 
 .banner {
@@ -24,23 +25,23 @@
 }
 
 #card_product {
-    box-shadow: 3px 5px 10px black;
+    /* box-shadow: 3px 5px 10px black; */
     display: flex;
     flex-direction: column;
     align-items: center;
     /* background-color: #f2e9e4; */
-    background-color: #e5e5e5;
+    /* background-color: #e5e5e5; */
 }
 
 .images {
     width: 100%;
-    max-width: 240px;
+    max-width: 360px;
+    height: 400px;
     aspect-ratio: 1/1;
     position: relative;
     overflow: hidden;
     display: block;
     margin: auto;
-
 }
 
 .product-img1,
@@ -63,20 +64,30 @@
     object-fit: cover;
 }
 .box{
-    max-width: 240px;
-    width: 100%;
+    /* max-width: 240px;
+    width: 100%; */
+    width: 360px;
+	text-align: center;
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+	background-color: #f8f9fa;
+	padding: 5px;
 }
-.box button{
+/* .box button{
     background-color: #1eb2a6;
     color: #ffffff;
     border: none;
     border-radius: 0;
-}
+} */
 
 .main-head {
     color: #1eb2a6;
     font-weight: bold;
     margin-top: 3vmin;
+    text-decoration: none;
+}
+.main-head:hover{
+    text-decoration: underline;
 }
 
 .btn-custom {
@@ -99,4 +110,23 @@
 .btn-custom:hover {
     background-color: #1eb2a6;
 
+}
+.batan{
+    
+    position: absolute;
+    bottom: -50px;     
+    left: 50%;
+    transform: translateX(-50%);
+    background:  #1eb2a6;
+    border: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.4s ease;   
+
+
+}
+.images:hover .batan{
+    bottom: 20px;
 }
