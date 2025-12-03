@@ -21,11 +21,13 @@
 .banner h3 {
     color: #1eb2a6;
 }
-#card_product{
+
+#card_product {
     box-shadow: 3px 5px 10px black;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #f2e9e4;
 }
 
 .images {
@@ -58,9 +60,20 @@
     display: none;
     object-fit: cover;
 }
+.box{
+    max-width: 240px;
+    width: 100%;
+}
+.box button{
+    background-color: #1eb2a6;
+    color: #ffffff;
+    border: none;
+    border-radius: 0;
+}
 
-.main-head{
+.main-head {
     color: #1eb2a6;
+    font-weight: bold;
     margin-top: 3vmin;
 }
 
@@ -69,6 +82,7 @@
     padding: 6px 10px;
     margin: auto;
     border: 2px solid #1eb2a6;
+    backdrop-filter: blur;
 }
 
 .btn-text {
