@@ -85,9 +85,20 @@
     font-weight: bold;
     margin-top: 3vmin;
     text-decoration: none;
+    position: relative;
 }
-.main-head:hover{
-    text-decoration: underline;
+.main-head::before{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: #1eb2a6;
+    left: 0;
+    bottom: 0;
+    transition: width 0.4s;
+}
+.main-head:hover::before{
+    width: 100%;
 }
 
 .btn-custom {
