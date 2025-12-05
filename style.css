@@ -1,59 +1,97 @@
+/* ===== Reset & Basic ===== */
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
-    /* font-family:   Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif" */
 }
 
-.banner {
+/* ===== Banner ===== */
+.banner, .banner-lcd {
     height: 400px;
-    background-image: url(fan_img/banner1.jpg);
     background-size: cover;
     background-position: center;
     padding-top: 15vmin;
     padding-left: 10vmin;
 }
+.banner{
+    background-image: url(fan_img/banner1.jpg);
+}
+.banner-lcd{
+    background-image: url(lcd-img/img8.jpeg);
+}
 
-.banner span {
+.banner span, .banner-lcd {
     border-right: 2px solid white;
     color: #ffffff;
 }
 
-.banner h3 {
+.banner h3, .banner-lcd {
     color: #1eb2a6;
 }
 
+/* ===== Card Product ===== */
 #card_product {
-    /* box-shadow: 3px 5px 10px black; */
     display: flex;
     flex-direction: column;
     align-items: center;
-    /* background-color: #f2e9e4; */
-    /* background-color: #e5e5e5; */
+}
+.items_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 28%);
+    justify-content: center;
+    gap: 30px;
+    margin-top: 80px;
 }
 
+.item {
+    background-color: white;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 2px;
+}
+
+.item img {
+    width: 100%;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.item h1 {
+    padding-top: 10px;
+}
+
+.item h4 {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    color: #1eb2a6;
+}
+.block-item{
+    display: none;
+}
+/* ===== Images Container ===== */
 .images {
     width: 100%;
     max-width: 360px;
     height: 400px;
-    aspect-ratio: 1/1;
     position: relative;
     overflow: hidden;
-    display: block;
     margin: auto;
 }
 
+#item,
 .product-img1,
 .product-img2,
 .product-img3,
-.product-img4,
-#item {
-    height: 100%;
+.product-img4 {
     width: 100%;
+    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .product-img1,
@@ -61,33 +99,27 @@
 .product-img3,
 .product-img4 {
     display: none;
-    object-fit: cover;
 }
-.box{
-    /* max-width: 240px;
-    width: 100%; */
-    width: 360px;
-	text-align: center;
-	border-radius: 10px;
-	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-	background-color: #f8f9fa;
-	padding: 5px;
-}
-/* .box button{
-    background-color: #1eb2a6;
-    color: #ffffff;
-    border: none;
-    border-radius: 0;
-} */
 
+/* ===== Box ===== */
+.box {
+    width: 360px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #f8f9fa;
+    padding: 5px;
+}
+
+/* ===== Headings ===== */
 .main-head {
     color: #1eb2a6;
-    font-weight: bold;
     margin-top: 3vmin;
     text-decoration: none;
     position: relative;
 }
-.main-head::before{
+
+.main-head::before {
     content: "";
     position: absolute;
     height: 3px;
@@ -97,16 +129,18 @@
     bottom: 0;
     transition: width 0.4s;
 }
-.main-head:hover::before{
+
+.main-head:hover::before {
     width: 100%;
 }
 
+/* ===== Buttons ===== */
 .btn-custom {
     width: 30vmin;
     padding: 6px 10px;
     margin: auto;
     border: 2px solid #1eb2a6;
-    backdrop-filter: blur;
+    backdrop-filter: blur(2px);
 }
 
 .btn-text {
@@ -114,30 +148,131 @@
     color: black;
 }
 
+.btn-custom:hover {
+    background-color: #1eb2a6;
+}
+
 .btn-custom:hover .btn-text {
     color: #ffffff;
 }
 
-.btn-custom:hover {
-    background-color: #1eb2a6;
-
-}
-.batan{
-    
+.batan {
     position: absolute;
-    bottom: -50px;     
+    bottom: -50px;
     left: 50%;
     transform: translateX(-50%);
-    background:  #1eb2a6;
+    background: #1eb2a6;
     border: none;
     padding: 10px 15px;
     font-weight: bold;
     color: #ffffff;
     cursor: pointer;
-    transition: 0.4s ease;   
-
-
+    transition: 0.4s ease;
+    width: 100%;
 }
-.images:hover .batan{
-    bottom: 20px;
+
+.images:hover .batan {
+    bottom: 0;
+}
+
+/* ===== Box Image ===== */
+.box-img {
+    position: relative;
+    height: 506px;
+    /* fix height for absolute image */
+    max-width: 500px;
+    margin-right: 25px;
+}
+
+.box-img img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* ===== Overlay Detail Page ===== */
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* background-color: rgba(0, 0, 0, 0.24); */
+    padding: 20px;
+    position: relative;
+}
+
+.detail-box {
+    max-height: 95vh;
+    height: 82vh;
+    max-width: 500px;
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    /* background-color: #f8f9fa; */
+    /* position: relative; */
+    /* padding: 20px;
+    padding-left: 10px; */
+}
+
+/* .content-box {
+    padding-left: 20px;
+} */
+
+/* ===== Close Button ===== */
+.close-btn {
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    color: black;
+    border: none;
+    font-size: 18px;
+    padding: 6px 12px;
+    cursor: pointer;
+    background: transparent;
+}
+
+.close-btn:hover {
+    border: 2px solid black;
+}
+
+/* ===== Remove focus green/blue line ===== */
+*:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.description{
+    color: gray;
+}
+.price{
+    color: #1eb2a6;
+}
+.btns {
+    padding: 20px;
+    background-color: transparent;
+    border: solid 3px #1eb2a6;
+    color: black;
+    transition: 0.3s;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.btns:hover {
+    background-color: #1eb2a6;
+    color: black;
+}
+
+label{
+    margin-right: 30px;
+    /* margin-left: 40px; */
+    color: #1eb2a6;
+    font-size: large;
+}
+select:hover {
+    background-color: #1eb2a6;   
+    color: white;            
 }
