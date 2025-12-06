@@ -78,8 +78,6 @@
 /* ===== Images Container ===== */
 .images {
     width: 100%;
-    max-width: 360px;
-    height: 400px;
     position: relative;
     overflow: hidden;
     margin: auto;
@@ -244,11 +242,11 @@
     border: 2px solid black;
 }
 
-/* ===== Remove focus green/blue line ===== */
+/* ===== Remove focus green/blue line =====
 *:focus {
     outline: none !important;
     box-shadow: none !important;
-}
+} */
 
 .description {
     color: gray;
@@ -308,11 +306,11 @@ select:hover {
 
 /* product page slider */
 .banner {
-    height: 300px;
+    height: 400px;
     background-size: cover;
     background-position: center;
-    padding-top: 15vmin;
-    padding-left: 10vmin;
+    /* padding-top: 20vmin;
+    padding-left: 10vmin; */
 }
 
 .banner {
@@ -320,8 +318,12 @@ select:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 35px;
+    /* padding: 35px; */
+    padding-top: 45px;
+   padding-left: 35px;
+   padding-right: 35px;
     gap: 30px;
+    position: relative;
 }
 
 .left-text {
@@ -363,4 +365,68 @@ select:hover {
     100% {
         transform: translateX(-50%);
     }
+}
+/* for header */
+
+header {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    backdrop-filter: blur(20px);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    z-index: 1;
+}
+
+#logo {
+    width: 230px;
+    padding-left: 30px;
+}
+
+#logo img {
+    width: 100%;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+.humburger{
+    display: none;
+}
+
+
+li a {
+    text-decoration: none;
+    transition: 0.4s;
+    color: white;
+    text-decoration: none;
+    /* margin-right: 30px; */
+    margin-top: 30px;
+    padding: 15px;
+}
+
+a::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 3px;
+    background-color:white;
+    bottom: 0;
+    left: 0;
+    transition: width 0.4s;
+}
+
+a:hover::before {
+    width: 100%;
+}
+
+a:hover {
+    color: black;
 }
