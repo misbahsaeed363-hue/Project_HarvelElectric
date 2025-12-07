@@ -92,6 +92,16 @@
             display: block;
             margin-left: 140px;
         }
+        .sidebar{
+            display: block;
+            position: fixed;
+            z-index: 999;
+            width: 30%;
+            height: 100vh;
+            right: 0;
+            top: 0;
+            color: red;
+        }
 
         .right-slider {
             width: 60%;

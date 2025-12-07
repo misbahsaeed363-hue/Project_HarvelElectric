@@ -412,7 +412,7 @@ li a {
     padding: 15px;
 }
 
-a::before {
+/* a::before {
     content: "";
     position: absolute;
     width: 0;
@@ -425,8 +425,11 @@ a::before {
 
 a:hover::before {
     width: 100%;
-}
+} */
 
 a:hover {
     color: black;
+}
+.sidebar{
+    display: none;
 }
