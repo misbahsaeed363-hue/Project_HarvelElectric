@@ -455,7 +455,7 @@ a:hover {
 }
 
 
- /* CONTACT SECTION — BASE */
+/* CONTACT SECTION — BASE */
 
 #message-input,
 #name-input,
@@ -489,6 +489,7 @@ a:hover {
 #message-input {
     height: 230px;
 }
+
 #message-input textarea {
     height: 100%;
     resize: none;
@@ -529,6 +530,43 @@ a:hover {
     text-decoration: none;
     font-weight: 600;
 }
+
 .contact-ways:hover {
     text-decoration: underline;
+}
+
+/* contact page banner */
+#contact-banner {
+    height: 380px;
+    width: 100%;
+    background-color: #1eb2a6;
+}
+
+.cb-text {
+    padding-left: 20%;
+    padding-top: 25%;
+}
+.cb-text p{
+    font-size: large;
+}
+
+.cb-icons {
+    padding-top: 25%;
+    gap: 30px;
+}
+
+.cb-icon-box i {
+    font-size: 40px;
+    color: black;
+    margin-bottom: 6px;
+}
+.cb-icon-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.cb-icon-box span{
+    font-size: large;
+    color: black;
 }

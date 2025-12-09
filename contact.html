@@ -13,66 +13,63 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
-
-<body>
-    <!-- navbar -->
-    <header>
-        <div class="navbar-logo">
-            <div class="humburger" onclick="showSidebar()">
-                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
-                    fill="#FFFFFF">
-                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
-                </svg>
-            </div>
-            <div id="logo"><img src="img/Artboard 1.png" alt="logo"></div>
+<header>
+    <div class="navbar-logo">
+        <div class="humburger" onclick="showSidebar()">
+            <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#FFFFFF">
+                <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+            </svg>
         </div>
-        <div class="navbar">
-            <ul>
-                <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT US</a></li>
-                <li><a href="product.html">PRODUCTS</a></li>
-                <li><a href="">CONTACT US</a></li>
-            </ul>
-        </div>
-        <div class="icon">
-            <i class="fa-solid fa-magnifying-glass"></i>
-            <i class="fa-regular fa-user"></i>
-            <i class="fa-solid fa-cart-shopping">
-                <!-- <div class="num">0</div> -->
-            </i>
-        </div>
-    </header>
-    <div class="sidebar">
+        <div id="logo"><img src="img/Artboard 1.png" alt="logo"></div>
+    </div>
+    <div class="navbar">
         <ul>
-            <li class="sidebar-list"></li>
-            <li class="sidebar-list"><a href="">HOME</a></li>
-            <li class="sidebar-list"><a href="">ABOUT US</a></li>
-            <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
-            <li class="sidebar-list"><a href="">CONTACT US</a></li>
+            <li><a href="">HOME</a></li>
+            <li><a href="">ABOUT US</a></li>
+            <li><a href="product.html">PRODUCTS</a></li>
+            <li><a href="">CONTACT US</a></li>
         </ul>
     </div>
+    <div class="icon">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <i class="fa-regular fa-user"></i>
+        <i class="fa-solid fa-cart-shopping">
+            <!-- <div class="num">0</div> -->
+        </i>
+    </div>
+</header>
+<div class="sidebar">
+    <ul>
+        <li class="sidebar-list"></li>
+        <li class="sidebar-list"><a href="">HOME</a></li>
+        <li class="sidebar-list"><a href="">ABOUT US</a></li>
+        <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
+        <li class="sidebar-list"><a href="">CONTACT US</a></li>
+    </ul>
+</div>
+
+<body>
+ 
+
     <main>
         <!-- slider-area start -->
-        <div class="banner">
-
-            <div class="left-text">
-                <h1 class="text-white">Our Products</h1>
-                <h5>High Quality • Modern Designs • Best Prices</h5>
-            </div>
-            <div class="right-slider">
-                <div class="slides">
-                    <img src="img/light5.jpg" alt="img not found">
-                    <img src="img/LED TV1.jpg" alt="img not found">
-                    <img src="img/fan8.jpg" alt="img not found">
-                    <img src="img/Electric geyser3.jpg" alt="img not found">
-
-                    <img src="img/light5.jpg" alt="img not found">
-                    <img src="img/LED TV1.jpg" alt="img not found">
-                    <img src="img/fan8.jpg" alt="img not found">
-                    <img src="img/Electric geyser3.jpg" alt="img not found">
+        <div id="contact-banner">
+            <div class="row ">
+                <div class="col-md-6 col-12">
+                    <div class="cb-text">
+                        <h1 class="text-white">Contact Us</h1>
+                        <p>We’re here to help. Reach out anytime !</p>
+                    </div>
                 </div>
-
+                <div class="col-md-6 col-12">
+                    <div class="cb-icons d-flex justify-content-center align-items-center">
+                        <div class="cb-icon-box"><i class="fa-solid fa-location-dot"></i><span>Location</span></div>
+                        <div class="cb-icon-box"><i class="fa-solid fa-envelope"></i><span>Email</span></div>
+                        <div class="cb-icon-box"><i class="fa-solid fa-phone"></i><span>Phone</span></div>
+                    </div>
+                </div>
             </div>
+
         </div>
         <!-- slider area end -->
         <section class="contact-section">
@@ -98,7 +95,6 @@
                             <div class="row">
                                 <div class="col-12">
                                     <div id="message-input">
-                                        <!-- <input type="text" placeholder="Enter Message"> -->
                                         <textarea placeholder="Message"></textarea>
                                     </div>
                                 </div>
