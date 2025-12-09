@@ -414,10 +414,10 @@ li a {
 }
 
 
-a:hover {
+/* a:hover {
     color: #ffffff;
     transform: scale(2px);
-}
+} */
 
 .icon {
     width: 200px;

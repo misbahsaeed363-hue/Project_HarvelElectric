@@ -138,6 +138,19 @@
     }
 }
 
+/* for header */
+@media (max-width: 1024px) {
+
+    li a {
+        font-size: 11px;
+        padding: 8px;
+    }
+    header{
+        gap: 130px;
+    }
+    
+}
+
 @media (max-width: 768px) {
     .navbar ul {
         display: none;
@@ -344,7 +357,7 @@
 
     .cb-icons {
         padding-top: 40%;
-       
+
     }
 }
 
@@ -366,6 +379,20 @@
     .cb-text {
         padding-top: 35%;
         padding-left: 0;
+    }
+    /* for navbar */
+    .icon {
+        margin-right: 50px;
+        gap: 6px;
+        width: auto;
+    }
+    header{
+        gap: 3px;
+    }
+    .headings h3 {
+        margin-right: -7px;
+        margin-left: 35px;
+        /* margin-top: 30px; */
     }
 
 }
