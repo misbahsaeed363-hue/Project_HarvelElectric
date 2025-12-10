@@ -16,9 +16,47 @@
 </head>
 
 <body>
+    <!-- navbar -->
+    <header>
+        <div class="navbar-logo">
+            <div class="humburger" onclick="showSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
+                    fill="#FFFFFF">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </div>
+            <div id="logo"><img src="img/Artboard 1.png" alt="logo"></div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="product.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-solid fa-cart-shopping">
+                <!-- <div class="num">0</div> -->
+            </i>
+        </div>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li class="sidebar-list" id="sb-btn">
+                <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
+            </li>
+            <li class="sidebar-list"><a href="">HOME</a></li>
+            <li class="sidebar-list"><a href="">ABOUT US</a></li>
+            <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
+            <li class="sidebar-list"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </div>
     <div class="overlay">
-        <button class="close-btn" onclick="goBack()">X</button>
         <div class="container detail-box p-2">
+            <button class="close-btn" onclick="goBack()">X</button>
             <div class="row p-md-5 p-2">
                 <div class="col-md-6 col-12">
                     <div class="box-img">
