@@ -1,4 +1,4 @@
-/* ===== Reset & Basic ===== */
+
 * {
     padding: 0;
     margin: 0;
@@ -182,7 +182,6 @@
 .box-img {
     position: relative;
     height: 506px;
-    /* fix height for absolute image */
     max-width: 500px;
     margin-right: 25px;
 
@@ -203,7 +202,6 @@
     justify-content: center;
     align-items: center;
     min-height: 120vh;
-    /* background-color: rgba(0, 0, 0, 0.24); */
     padding: 20px;
 
 }
@@ -216,18 +214,9 @@
     width: 100%;
     overflow-y: auto;
     overflow-x: hidden;
-    /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
     background-color: white;
-    /* z-index: 1000; */
-    /* background-color: #f8f9fa; */
-    /* position: relative; */
-    /* padding: 20px;
-    padding-left: 10px; */
 }
 
-/* .content-box {
-    padding-left: 20px;
-} */
 
 /* ===== Close Button ===== */
 .close-btn {
@@ -240,29 +229,8 @@
     padding: 6px 12px;
     cursor: pointer;
     background: transparent;
-    /* z-index: 999; */
 }
 
-/* .down-btn i {
-    font-size: 18px;
-} */
-
-/* .down-btn{
-    position: relative;
-}
-.down-btn i{
-    position: absolute;
-    to
-} */
-/* 
-.close-btn:hover {
-    /* border: 2px solid black; */
-*/
-/* ===== Remove focus green/blue line =====
-*:focus {
-    outline: none !important;
-    box-shadow: none !important;
-} */
 
 .description {
     color: gray;
@@ -294,7 +262,6 @@
 
 label {
     margin-right: 30px;
-    /* margin-left: 40px; */
     color: #1eb2a6;
     font-size: large;
 }
@@ -326,20 +293,17 @@ select:hover {
 }
 
 /* product page slider */
-.banner {
+.banner-products {
     height: 400px;
     background-size: cover;
     background-position: center;
-    /* padding-top: 20vmin;
-    padding-left: 10vmin; */
 }
 
-.banner {
+.banner-products {
     background-color: #1eb2a6;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* padding: 35px; */
     padding-top: 45px;
     padding-left: 35px;
     padding-right: 35px;
@@ -434,11 +398,6 @@ li a {
 }
 
 
-/* a:hover {
-    color: #ffffff;
-    transform: scale(2px);
-} */
-
 .icon {
     width: 200px;
     display: flex;
@@ -520,7 +479,6 @@ li a {
 .contact-icon {
     background: #fafafa;
     padding: 15px 12px;
-    /* border-radius: 8px; */
     margin-bottom: 18px;
     display: flex;
     align-items: flex-start;
@@ -594,3 +552,5 @@ li a {
     font-size: large;
     color: black;
 }
+ 
+/* taha jameel css */
