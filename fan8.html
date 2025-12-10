@@ -44,7 +44,9 @@
     </header>
     <div class="sidebar">
         <ul>
-            <li class="sidebar-list"></li>
+            <li class="sidebar-list" id="sb-btn">
+                <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
+            </li>
             <li class="sidebar-list"><a href="">HOME</a></li>
             <li class="sidebar-list"><a href="">ABOUT US</a></li>
             <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
@@ -52,8 +54,8 @@
         </ul>
     </div>
     <div class="overlay">
-        <button class="close-btn" onclick="goBack()">X</button>
         <div class="container detail-box p-2">
+            <button class="close-btn" onclick="goBack()">X</button>
             <div class="row p-md-5 p-2">
                 <div class="col-md-6 col-12">
                     <div class="box-img">
@@ -63,7 +65,8 @@
                 <div class="col-12 col-md-6 content-box">
                     <h1 class="mt-4"><b>Large Black Standing Fan</b></h1>
                     <h5 class="price">Rs 5,600</h5>
-                    <p class="pt-2 pb-2 description">High-performance standing fan with wide-angle airflow. Suitable for big rooms and offices.
+                    <p class="pt-2 pb-2 description">High-performance standing fan with wide-angle airflow. Suitable for
+                        big rooms and offices.
                     </p>
                     <div class="selector">
                         <label class="">&nbsp;Height Adjustment</label>
@@ -74,7 +77,7 @@
                         </select>
                     </div>
                     <br>
-                    <label>&nbsp;&nbsp;&nbsp;&nbsp;Fan Blades &nbsp; &nbsp;</label>
+                    <label>&nbsp;&nbsp;Fan Blades &nbsp; &nbsp;</label>
                     <select class="p-md-2 p-1">
                         <option disabled selected hidden>Choose option</option>
                         <option>Transparent</option>

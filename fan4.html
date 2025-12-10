@@ -18,9 +18,9 @@
     <!-- navbar -->
     <header>
         <div class="navbar-logo">
-            <div class="humburger">
+            <div class="humburger"  onclick="showSidebar()">
                 <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
-                    fill="#FFFFFF">
+                    fill="#000">
                     <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
                 </svg>
             </div>
@@ -44,7 +44,9 @@
     </header>
     <div class="sidebar">
         <ul>
-            <li class="sidebar-list"></li>
+           <li class="sidebar-list" id="sb-btn">
+                <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
+            </li>
             <li class="sidebar-list"><a href="">HOME</a></li>
             <li class="sidebar-list"><a href="">ABOUT US</a></li>
             <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
@@ -52,8 +54,8 @@
         </ul>
     </div>
     <div class="overlay">
-        <button class="close-btn" onclick="goBack()">X</button>
         <div class="container detail-box p-2">
+            <button class="close-btn" onclick="goBack()">X</button>
             <div class="row p-md-5 p-2">
                 <div class="col-md-6 col-12">
                     <div class="box-img">
@@ -66,7 +68,7 @@
                     <p class="pt-2 pb-2 description">Sleek and compact personal fan for workspaces, study rooms, and bedside use.
                     </p>
                     <div class="selector">
-                        <label class="">&nbsp;Airflow Range</label>
+                        <label class="">&nbsp;flow Range</label>
                         <select class="mb-md-2 p-md-2 p-1">
                             <option disabled selected hidden>Choose option</option>
                             <option>Short</option>
@@ -75,7 +77,7 @@
                         </select>
                     </div>
                     <br>
-                    <label>&nbsp;&nbsp;&nbsp;&nbsp;Tilt Angle &nbsp; &nbsp;</label>
+                    <label>&nbsp;Tilt Angle &nbsp; &nbsp;</label>
                     <select class="p-md-2 p-1">
                         <option disabled selected hidden>Choose option</option>
                         <option>Adjustable</option>

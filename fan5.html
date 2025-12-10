@@ -18,9 +18,8 @@
     <!-- navbar -->
     <header>
         <div class="navbar-logo">
-            <div class="humburger">
-                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
-                    fill="#FFFFFF">
+            <div class="humburger" onclick="showSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000">
                     <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
                 </svg>
             </div>
@@ -44,7 +43,9 @@
     </header>
     <div class="sidebar">
         <ul>
-            <li class="sidebar-list"></li>
+            <li class="sidebar-list" id="sb-btn">
+                <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
+            </li>
             <li class="sidebar-list"><a href="">HOME</a></li>
             <li class="sidebar-list"><a href="">ABOUT US</a></li>
             <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
@@ -52,8 +53,8 @@
         </ul>
     </div>
     <div class="overlay">
-        <button class="close-btn" onclick="goBack()">X</button>
         <div class="container detail-box p-2">
+            <button class="close-btn" onclick="goBack()">X</button>
             <div class="row p-md-5 p-2">
                 <div class="col-md-6 col-12">
                     <div class="box-img">
@@ -63,7 +64,8 @@
                 <div class="col-12 col-md-6 content-box">
                     <h1 class="mt-4"><b>Wooden Blade Ceiling Fan</b></h1>
                     <h5 class="price">Rs 9,500</h5>
-                    <p class="pt-2 pb-2 description">Stylish wooden-blade ceiling fan perfect for modern living rooms. Quiet and energy-efficient motor.
+                    <p class="pt-2 pb-2 description">Stylish wooden-blade ceiling fan perfect for modern living rooms.
+                        Quiet and energy-efficient motor.
                     </p>
                     <div class="selector">
                         <label class="">&nbsp;Blade Style</label>
@@ -71,11 +73,11 @@
                             <option disabled selected hidden>Choose option</option>
                             <option>Wooden</option>
                             <option>Dark Walnut</option>
-            
+
                         </select>
                     </div>
                     <br>
-                    <label>&nbsp;&nbsp;&nbsp;&nbsp;Motor Type &nbsp; &nbsp;</label>
+                    <label>&nbsp;&nbsp;Motor Type </label>
                     <select class="p-md-2 p-1">
                         <option disabled selected hidden>Choose option</option>
                         <option>Silent</option>

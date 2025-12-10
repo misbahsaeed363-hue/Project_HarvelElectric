@@ -44,7 +44,9 @@
     </header>
     <div class="sidebar">
         <ul>
-            <li class="sidebar-list"></li>
+            <li class="sidebar-list" id="sb-btn">
+                <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
+            </li>
             <li class="sidebar-list"><a href="">HOME</a></li>
             <li class="sidebar-list"><a href="">ABOUT US</a></li>
             <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
@@ -52,8 +54,8 @@
         </ul>
     </div>
     <div class="overlay">
-        <button class="close-btn" onclick="goBack()">X</button>
         <div class="container detail-box p-2">
+            <button class="close-btn" onclick="goBack()">X</button>
             <div class="row p-md-5 p-2">
                 <div class="col-md-6 col-12">
                     <div class="box-img">
