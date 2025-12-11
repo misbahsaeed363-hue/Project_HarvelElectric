@@ -7,15 +7,55 @@
     <title>Wooden Table Lamp</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media_query.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
 
 </head>
 
 <body>
+    <!-- navbar -->
+    <header>
+        <div class="navbar-logo">
+            <div class="humburger" onclick="showSidebar()">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000">
+                    <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
+                </svg>
+            </div>
+            <div id="logo"><img src="img/Artboard 1.png" alt="logo"></div>
+        </div>
+        <div class="navbar">
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT US</a></li>
+                <li><a href="product.html">PRODUCTS</a></li>
+                <li><a href="contact.html">CONTACT US</a></li>
+            </ul>
+        </div>
+        <div class="icon">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-regular fa-user"></i>
+            <i class="fa-solid fa-cart-shopping">
+                <!-- <div class="num">0</div> -->
+            </i>
+        </div>
+    </header>
+    <div class="sidebar">
+        <ul>
+            <li class="sidebar-list" id="sb-btn">
+                <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
+            </li>
+            <li class="sidebar-list"><a href="">HOME</a></li>
+            <li class="sidebar-list"><a href="">ABOUT US</a></li>
+            <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
+            <li class="sidebar-list"><a href="contact.html">CONTACT US</a></li>
+        </ul>
+    </div>
     <div class="overlay">
-        <button class="close-btn" onclick="goBack()">X</button>
         <div class="container detail-box p-2">
+            <button class="close-btn" onclick="goBack()">X</button>
             <div class="row p-md-5 p-2">
                 <div class="col-md-6 col-12">
                     <div class="box-img">
@@ -26,33 +66,88 @@
                     <h1 class="mt-4"><b>Instant Electric Water Heater</b></h1>
                     <h5 class="price">Rs 12,499</h5>
                     <p class="pt-2 pb-2 description">
-                        A uniquely designed diamond-shaped outdoor wall light engineered to withstand rain, dust, and
-                        moisture. Perfect for garden walls, gateways, and stone-textured exteriors.
+                        A fast-heating, energy-efficient instant shower water heater designed to provide hot water
+                        within seconds.
+                        Perfect for winter mornings, modern bathrooms, apartments, and low-water-pressure areas.
                     </p>
                     <div class="selector">
-                        <label class="">Light Tone</label>
+                        <label class="">Temperature</label>
                         <select class="mb-md-2 p-md-2 p-1">
                             <option disabled selected hidden>Choose option</option>
-                            <option>Warm Light</option>
-                            <option>Soft White</option>
-                            <option>Neutral Glow</option>
+                            <option>Warm (38°C)</option>
+                            <option>Hot (42°C)</option>
+                            <option>Extra Hot (48°C)</option>
                         </select>
                     </div>
                     <br>
-                    <label>&nbsp;Material&nbsp;&nbsp;&nbsp;</label>
+                    <label>&nbsp;&nbsp;&nbsp;&nbsp;Color&nbsp;&nbsp;&nbsp;</label>
                     <select class="p-md-2 p-1">
                         <option disabled selected hidden>Choose option</option>
-                        <option>Natural Wood</option>
-                        <option>Light Oak</option>
-                        <option>Matte Beige</option>
+                        <option>Classic White</option>
+                        <option>Matte Black</option>
+                        <option>Premium Grey</option>
                     </select>
                     <br>
-                    <button class="btns mr-2">Add to Cart</button>
-                    <button class="btns">View Details</button>
+                    <div class="d-flex gap-3">
+                        <button class="btns mr-2">Buy Now</button>
+                        <button class="btns" id="down-btn"><a href="geyser1.docx" target="_blank">View Details <i
+                                    class="fa-solid fa-download"></i></a></button>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
+    <footer class="bg-teal p-3 mt-4">
+        <div class="container">
+            <div class="row text-white">
+
+                <!-- Column 1 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <img id="footer-img" src="img/Artboard 1.png" alt="logo" class="img-fluid "
+                        style="max-width:150px;">
+                    <h5 class="footer-head">Harvel Electric brings you reliable, high-performance appliances designed
+                        for everyday
+                        comfort.</h5>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 class="text-dark fw-bold mb-3">MENU</h3>
+                    <p><a href="" class="footer-link">Shipping Info</a></p>
+                    <p><a href="" class="footer-link">Refunds</a></p>
+                    <p><a href="" class="footer-link">How to Order</a></p>
+                    <p><a href="" class="footer-link">How to Track</a></p>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 class="text-dark fw-bold mb-3">ITEMS</h3>
+                    <p><a href="" class="footer-link">Electric fan</a></p>
+                    <p><a href="" class="footer-link">Electric geyser</a></p>
+                    <p><a href="" class="footer-link">Electric LED light</a></p>
+                    <p><a href="" class="footer-link">Electric LED Tv</a></p>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 class="text-dark fw-bold mb-3">Signup For Latest News</h3>
+
+                    <div class="d-flex mb-3">
+                        <input type="email" class="form-control me-2 rounded-0" placeholder="Email">
+                        <button class="btn btn-outline-light rounded-0">Submit</button>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-3">
+                        <a class="social-icon" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </footer>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
