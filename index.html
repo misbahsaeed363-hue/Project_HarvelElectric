@@ -7,6 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="media_query.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,11 +15,15 @@
 </head>
 
 <body>
+
     <!-- navbar -->
+
+
     <header>
         <div class="navbar-logo">
             <div class="humburger" onclick="showSidebar()">
-                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000">
+                <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px"
+                    fill="#000">
                     <path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z" />
                 </svg>
             </div>
@@ -27,7 +32,7 @@
         <div class="navbar">
             <ul>
                 <li><a href="">HOME</a></li>
-                <li><a href="">ABOUT US</a></li>
+                <li><a href="About.html">ABOUT US</a></li>
                 <li><a href="product.html">PRODUCTS</a></li>
                 <li><a href="contact.html">CONTACT US</a></li>
             </ul>
@@ -46,198 +51,220 @@
                 <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
             </li>
             <li class="sidebar-list"><a href="">HOME</a></li>
-            <li class="sidebar-list"><a href="">ABOUT US</a></li>
+            <li class="sidebar-list"><a href="About.html">ABOUT US</a></li>
             <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
             <li class="sidebar-list"><a href="contact.html">CONTACT US</a></li>
         </ul>
     </div>
-    <main>
 
-        <div class="banner">
-            <div class="content">
-                <h1><b><span style="color: #1eb2a6;">Harvel</span> Electric</b></h1>
-                <h5>From home appliances to smart devices —
-                    discover the latest innovations for your everyday needs.
-                    Experience performance and quality you can truly rely on..</h5>
-                <button class="index-btn">MORE ABOUT US</button>
+
+
+
+    <div class="Home_banner">
+        <div class="content">
+            <h1><b><span style="color: #1eb2a6;">Harvel</span> Electric</b></h1>
+            <h5>From home appliances to smart devices —
+                discover the latest innovations for your everyday needs.
+                Experience performance and quality you can truly rely on..</h5>
+            <button class="banner_btn">MORE ABOUT US</button>
+        </div>
+    </div>
+
+
+    <!-- Welcome to Harvel Electric -->
+
+
+
+    <div class="main">
+        <div class="img_div">
+            <img class="first" src="img/company.jpg" alt="img">
+            <img class="second" src="img/company1.jpg" alt="img">
+        </div>
+        <div class="Harvel_content">
+            <h1><b>Welcome to <span style="color: #1eb2a6;">Harvel</span> Electric</b></h1>
+            <p>Harvel Electric brings you reliable, high-performance appliances designed for everyday comfort. Our
+                products combine modern technology with long-lasting durability.</p>
+            <p>
+                From home essentials to smart solutions, we ensure quality you can trust. Experience innovation that
+                makes your life easier and more efficient.
+            </p>
+            <p>
+                Harvel Electric delivers high-quality appliances built for performance and reliability.
+                Our innovative products are designed to bring comfort, efficiency, and smart living to your home
+            </p>
+            <div class="list">
+                <div class="list_img">
+                    <div class="div1"></div>
+                    <div class="div1"></div>
+                    <div class="div1"></div>
+                </div>
+                <p>Reliable electric solutions</p>
+                <p> Behind the word mountains</p>
+                <p> Separated they live in Bookmarksgrove</p>
+            </div>
+            <button class="btn1"><a href="About.html">learn more</a></button>
+        </div>
+    </div>
+    <div class="height">
+
+        <!-- heading -->
+        <div class="heading">
+            <h1><b>Our Best<span style="color: #1eb2a6;"> Products</span></b></h1>
+            <p>Our products are designed with quality, durability, and modern innovation in mind.</p>
+            <p>We deliver reliable solutions that bring comfort, performance, and value to your everyday life.</p>
+        </div>
+
+
+
+        <div class="items_container">
+            <div class="item">
+                <div class="images">
+                    <img src="img/fan1.jpg" alt="item-img">
+                   <button class="batan">Add to Cart</button>
+                </div>
+                <h1><a href="fan1.html" class="items-list">Electric fan</a></h1>
+                <h4>Rs 7,743</h4>
+            </div>
+            <div class="item">
+                <div class="images">
+                    <img src="img/fans4.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+
+                <h1><a href="fan2.html" class="items-list">Electric fan</a></h1>
+                <h4>Rs 25,743</h4>
+            </div>
+            <div class="item">
+                <div class="images">
+                    <img src="img/fans5.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+
+                <h1><a href="fan3.html" class="items-list">Electric fan</a></h1>
+                <h4>Rs 35,743</h4>
+            </div>
+            <div class="item_block">
+                <div class="images">
+                    <img src="img/block_img.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+
+                <h1><a href="fan4.html" class="items-list">Electric fan</a></h1>
+                <h4>Rs 35,743</h4>
             </div>
         </div>
-        <!-- Welcome to Harvel Electric -->
 
-        <div class="main">
-            <div class="img_div">
-                <img class="first" src="img/company.jpg" alt="img">
-                <img class="second" src="img/company1.jpg" alt="img">
-            </div>
-            <div class="Harvel_content">
-                <h1><b>Welcome to <span style="color: #1eb2a6;">Harvel</span> Electric</b></h1>
-                <p>Harvel Electric brings you reliable, high-performance appliances designed for everyday comfort. Our
-                    products combine modern technology with long-lasting durability.</p>
-                <p>
-                    From home essentials to smart solutions, we ensure quality you can trust. Experience innovation that
-                    makes your life easier and more efficient.
-                </p>
-                <p>
-                    Harvel Electric delivers high-quality appliances built for performance and reliability.
-                    Our innovative products are designed to bring comfort, efficiency, and smart living to your home
-                </p>
-                <div class="list">
-                    <div class="list_img">
-                        <div class="div1"></div>
-                        <div class="div1"></div>
-                        <div class="div1"></div>
-                    </div>
-                    <p>Reliable electric solutions</p>
-                    <p> Behind the word mountains</p>
-                    <p> Separated they live in Bookmarksgrove</p>
+        <div class="items_container">
+            <div class="item">
+                <div class="images">
+                    <img src="img/Electric geyser1.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
                 </div>
-                <button class="btn1">learn more</button>
+                <h1><a href="geyser1.html" class="items-list">Electric geyser</a></h1>
+                <h4>Rs 7,743</h4>
+            </div>
+            <div class="item">
+                <div class="images">
+                    <img src="img/Electric geyser2.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+                <h1><a href="geyser2.html" class="items-list">Electric geyser</a></h1>
+                <h4>Rs 25,743</h4>
+            </div>
+            <div class="item">
+                <div class="images">
+                    <img src="img/Electric geyser3.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+                <h1><a href="geyser3.html" class="items-list">Electric geyser</a></h1>
+                <h4>Rs 35,743</h4>
+            </div>
+            <div class="item_block">
+                <div class="images">
+                    <img src="img/block_img1.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+                <h1><a href="geyser4.docx" class="items-list">Electric geyser</a></h1>
+                <h4>Rs 35,743</h4>
             </div>
         </div>
-        <div class="item_content">
-            <div class="heading">
-                <h1><b>Our Best<span style="color: #1eb2a6;"> Products</span></b></h1>
-                <p>Our products are designed with quality, durability, and modern innovation in mind.</p>
-                <p>We deliver reliable solutions that bring comfort, performance, and value to your everyday life.</p>
-            </div>
-            <div class="items_container">
-                <div class="item">
-                    <div class="images">
-                        <img src="img/LED TV4.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="LCD4.html" class="items-list">Smart TV</a></h1>
-                    <h4>Rs 7,743</h4>
-                </div>
-                <div class="item">
-                    <div class="images">
-                        <img src="img/LED TV5.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="LCD5.html" class="items-list">Smart TV</a></h1>
-                    <h4>Rs 25,743</h4>
-                </div>
-                <div class="item">
-                    <div class="images">
-                        <img src="img/LED TV6.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="LCD6.html" class="items-list">Smart TV</a></h1>
-                    <h4>Rs 35,743</h4>
-                </div>
-                <div class="item block-item">
-                    <div class="images">
-                        <img src="img/LED TV3.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="LCD3.html" class="items-list">Smart TV</a></h1>
-                    <h4>Rs 99,999</h4>
-                </div>
-            </div>
 
-            <div class="items_container">
-                <div class="item">
-                    <div class="images">
-                        <img src="img/light1.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="light8.html" class="items-list">Decorative Light</a></h1>
-                    <h4>Rs 4,499</h4>
-                </div>
-                <div class="item">
-                    <div class="images">
-                        <img src="img/light2.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="light2.html" class="items-list">Decorative Light</a></h1>
-                    <h4>Rs 6,499</h4>
-                </div>
-                <div class="item">
-                    <div class="images">
-                        <img src="img/light3.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="light7.html" class="items-list">Decorative Light</a></h1>
-                    <h4>Rs 4,999</h4>
-                </div>
-                <div class="item block-item">
-                    <div class="images">
-                        <img src="img/light4.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="light6.html" class="items-list">Decorative Light</a></h1>
-                    <h4>Rs 3,499</h4>
-                </div>
-            </div>
 
-            <div class="items_container">
-                <div class="item">
-                    <div class="images">
-                        <img src="img/Electric geyser1.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="geyser3.html" class="items-list">Electric geyser</a></h1>
-                    <h4>Rs 11,499</h4>
+        <div class="items_container">
+            <div class="item">
+                <div class="images">
+                    <img src="img/LED TV4.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
                 </div>
-                <div class="item">
-                    <div class="images">
-                        <img src="img/Electric geyser2.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="geyser2.html" class="items-list">Electric geyser</a></h1>
-                    <h4>Rs 14,999</h4>
-                </div>
-                <div class="item">
-                    <div class="images">
-                        <img src="img/Electric geyser3.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="geyser4.html" class="items-list">Electric geyser</a></h1>
-                    <h4>Rs 13,499</h4>
-                </div>
-                <div class="item block-item">
-                    <div class="images">
-                        <img src="img/Electric geyser5.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="geyser5.html" class="items-list">Electric geyser</a></h1>
-                    <h4>Rs 15,999</h4>
-                </div>,
+                <h1><a href="LCD1.html" class="items-list">LED TV4</a></h1>
+                <h4>Rs 7,743</h4>
             </div>
+            <div class="item">
+                <div class="images">
+                    <img src="img/LED TV5.jpg" alt="item-img">
+                   <button class="batan">Add to Cart</button>
+                </div>
 
-            <div class="items_container">
-                <div class="item">
-                    <div class="images">
-                        <img src="img/fans3.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="fan4.html" class="items-list">Electric Fans</a></h1>
-                    <h4>Rs 2,150</h4>
-                </div>
-                <div class="item">
-                    <div class="images">
-                        <img src="img/fans4.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="fan3.html" class="items-list">Electric Fans</a></h1>
-                    <h4>Rs 3,750</h4>
-                </div>
-                <div class="item">
-                    <div class="images">
-                        <img src="img/fan1.jpg" alt="item-img">
-                        <button class="batan">Add to Cart</button>
-                    </div>
-                    <h1><a href="fan8.html" class="items-list">Electric Fans</a></h1>
-                    <h4>Rs 1,450</h4>
-                </div>
-                <div class="item block-item">
-                    <img src="img/fan10.jpg" alt="item-img">
-                    <h1><a href="fan5.html" class="items-list">Electric Fans</a></h1>
-                    <h4>Rs 9,500</h4>
-                </div>
+                <h1><a href="LCD2.html" class="items-list">LED TV4</a></h1>
+                <h4>Rs 25,743</h4>
             </div>
-
+            <div class="item">
+                <div class="images">
+                    <img src="img/LED TV6.jpg" alt="item-img">
+                   <button class="batan">Add to Cart</button>
+                </div>
+                <h1><a href="LCD3.html" class="items-list">LED TV4</a></h1>
+                <h4>Rs 35,743</h4>
+            </div>
+            <div class="item_block">
+                <div class="images">
+                    <img src="img/block_img2.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+                <h1><a href="LCD4.html" class="items-list">LED TV4</a></h1>
+                <h4>Rs 35,743</h4>
+            </div>
         </div>
+        <div class="items_container">
+            <div class="item">
+                <div class="images">
+                    <img src="img/light1.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+
+                <h1><a href="light1.html" class="items-list">LED light</a></h1>
+                <h4>Rs 7,743</h4>
+            </div>
+            <div class="item">
+                <div class="images">
+                    <img src="img/light2.jpg" alt="item-img">
+                   <button class="batan">Add to Cart</button>
+                </div>
+                <h1><a href="light2.html" class="items-list">LED light</a></h1>
+                <h4>Rs 25,743</h4>
+            </div>
+            <div class="item">
+                <div class="images">
+                    <img src="img/light3.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+
+                <h1><a href="light2.html" class="items-list">LED light</a></h1>
+                <h4>Rs 35,743</h4>
+            </div>
+            <div class="item_block">
+                <div class="images">
+                    <img src="img/block_img3.jpg" alt="item-img">
+                    <button class="batan">Add to Cart</button>
+                </div>
+                <h1><a href="light4.html" class="items-list">LED light</a></h1>
+                <h4>Rs 35,743</h4>
+            </div>
+        </div>
+        <div class="Pricelist_div">
+            <button class="Pricelist_btn"><a href="Pricelist.xlsx">Pricelist</a></button>
+  </div>
+    
         <div class="banner2">
             <img src="img/New york.jpg" alt="">
             <h2>Upcoming Products</h2>
@@ -380,19 +407,70 @@
 
             </div>
         </div>
+        
+    </div>
+
+
+
+
+
+
+</main>
+   <footer class="bg-teal p-3">
+        <div class="container">
+            <div class="row text-white">
+
+                <!-- Column 1 -->
+                <div class="col-lg-3 col-md-6 mb-4 mt-3">
+                    <img id="footer-img" src="img/logo 1.png" alt="logo" class="img-fluid "
+                        style="max-width:150px;">
+                    <p class="footer-head">Harvel Electric brings you reliable, high-performance appliances designed
+                        for everyday
+                        comfort.</p>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 class="text-dark fw-bold p-3">MENU</h3>
+                    <p><a href="" class="footer-link">Shipping Info</a></p>
+                    <p><a href="" class="footer-link">Refunds</a></p>
+                    <p><a href="" class="footer-link">How to Order</a></p>
+                    <p><a href="" class="footer-link">How to Track</a></p>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h3 class="text-dark fw-bold p-3 ">ITEMS</h3>
+                    <p><a href="" class="footer-link ">Electric fan</a></p>
+                    <p><a href="" class="footer-link ">Electric geyser</a></p>
+                    <p><a href="" class="footer-link ">Electric LED light</a></p>
+                    <p><a href="" class="footer-link ">Electric LED Tv</a></p>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="col-lg-3 col-md-6 p-3 ppol">
+                    <h3 class="text-dark fw-bold mb-3">Signup For Latest News</h3>
+
+                    <div class="d-flex   ">
+                        <input class="footer_input" type="email" class="form-control me-2 rounded-0" placeholder="Email">
+                        <button class="btn btn-outline-light rounded-0 mt-0">Submit</button>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-1">
+                        <a class="social-icon" href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-twitter"></i></a>
+                        <a class="social-icon" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                </div>
+
+            </div>
         </div>
+    </footer>
 
 
 
-
-
-
-    </main>
-
-
-
-
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
 </body>
 

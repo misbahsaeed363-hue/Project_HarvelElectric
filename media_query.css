@@ -1,3 +1,681 @@
+
+
+/* ......................Taha ki media qurees............................................. */
+/* ......................Taha ki media qurees............................................. */
+/* ......................Taha ki media qurees............................................. */
+
+
+
+@media (max-width: 1024px) {
+ .height {
+    height: 3400px;
+}
+.costomer{
+
+    grid-template-columns: repeat(1,100%);
+
+}
+.costomer_col1{
+   height: 300px;
+}
+.costomer_col2{
+   height: 300px;
+}
+.costomer_col2{
+   height: 300px;
+}
+.costomer_contant2{
+  margin-top: 20px;
+}
+.costomer_contant3{
+   margin-top: 40px;
+}
+.costomer_contant5{
+   margin-top: 40px;
+}
+.costomer_col3{
+   height: 300px;
+   top: -100px;
+}
+
+.costomer_col4{
+   height: 300px;
+   top: -100px;
+}
+
+.costomer_col5{
+   height: 300px;
+   top: -100px;
+}
+
+
+.About_content{
+	width: 800px;
+	height: 250px;
+    margin-left: 80px;
+}
+.About_img h1{
+    
+padding-left: 340px;
+padding-top: 200px;
+font-size: 30px;
+}
+.costomer_col1{
+    height: 200px;
+}
+.costomer_col2{
+    height: 200px;
+    margin-top: 100px;
+}
+.costomer_col3{
+    height: 200px;
+}
+.costomer_col4{
+    height: 200px;
+}
+.costomer_col5{
+    height: 200px;
+}
+
+.second {
+    display: block;
+}
+.first{
+    display: none;
+}
+.Amazing-content-row {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    top: 340px;
+}
+
+.inrow {
+    height: 355.5px;
+    position: relative;
+}
+
+.inrow_block {
+    height: 355.5px;
+    position: relative;
+    display: none;
+}
+
+.vidio {
+    width: 180px;
+    height: 120px;
+    float: left;
+}
+.vidio video{
+    width: 180px;
+   
+}
+
+.Amazing-colum {
+    width: 170px;
+    height: 345px;
+    border: solid 0.6px rgb(223, 223, 223);
+    float: left;
+    background-color: #ffffff;
+    position: absolute;
+    padding: 20px;
+    top: -24.5px;
+    right: 0px;
+}
+
+.Amazing-colum h3 {
+    padding-top: 70px;
+}
+
+.Amazing-colum p {
+    padding-top: 20px;
+    color: gray;
+}
+
+.Amazing-content-row1 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 310px);
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    margin-top: 420px;
+    top: 340px;
+}
+
+
+.date {
+    width: 160px;
+    height: 30px;
+    background-color: #1eb2a6;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+}
+
+.date h3 {
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+.banner2 h2 {
+    position: absolute;
+    top: 180px;
+    left: 300px;
+    color: white;
+    font-size: 45px;
+}
+.footer {
+    background-color: #1eb2a6;
+    width: 100%;
+    height: auto;
+    font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(4, 23%);
+    justify-content: center;
+}
+
+.footer-col {
+    color: rgb(255, 255, 255);
+    height: 250px;
+    padding: 20px;
+}
+
+.footer-col h4 {
+    padding-top: 10px;
+}
+
+.footer-img {
+    width: 200px;
+}
+
+.footer-col img {
+    width: 100%;
+}
+
+.footer-col a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.icons {
+    width: 170px;
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.icon1 {
+    padding: 5px;
+    border: solid 2px #ffffff;
+    border-radius: 50px;
+}
+
+.icon1:hover i {
+    color: #000000;
+}
+
+.icon2 {
+    padding: 4px;
+    border: solid 2px #ffffff;
+    border-radius: 50%;
+}
+
+.icon2:hover i {
+    color: #000000;
+}
+
+.icon3 {
+    padding: 5px;
+    border: solid 2px #ffffff;
+    border-radius: 50px;
+}
+
+.icon3:hover i {
+    color: #000000;
+}
+
+.icon4 {
+    padding: 5px;
+    border: solid 2px #ffffff;
+    border-radius: 50px;
+}
+
+.icon4:hover i {
+    color: #000000;
+}
+
+.input {
+    width: 145px;
+    height: 35px;
+    padding: 10px;
+    border: solid 2px #ffffff;
+    background-color: transparent;
+    margin-top: 20px;
+    float: left;
+}
+
+#btn {
+    width: 50px;
+    height: 35px;
+    background-color: transparent;
+    border: solid 2px #ffffff;
+    border-left: none;
+    margin-top: 20px;
+}
+.footer-top{
+    margin-top: 1000px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+ .height {
+    height: 5800px;
+}
+.About_content{
+	width: 600px;
+	height: 250px;
+    margin-left: 50px;
+    font-size: 10px;
+}
+.About_content p{
+	
+    font-size: 10px;
+}
+.About_img h1{
+    
+padding-left: 210px;
+padding-top: 200px;
+font-size: 30px;
+}
+.costomer_contant4{
+   margin-top: 40px;
+}
+
+
+
+.Home_banner h5{
+    font-size: 18px;
+}
+.Home_banner h1{
+    font-size: 30px;
+}
+.content{
+    width: 600px;
+}
+.btn{
+    padding: 15px;
+    margin-top: 150px;
+}
+.heading{
+    height: 200px;
+}
+.main {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+}
+
+.img_div img {
+    width: 100%;
+}
+
+.second {
+    display: none;
+}
+.first{
+    display: block;
+}
+
+.Harvel_content {
+    /* width: 630px; */
+    height: 600px;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.Harvel_content p {
+    padding-top: 20px;
+
+    color: gray;
+}
+
+.items_container {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+.item_block {
+    display: block;
+}
+
+
+.Amazing-content-row {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 310px);
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    top: 340px;
+}
+
+
+.inrow_block {
+    display: none;
+}
+
+.vidio {
+    width: 180px;
+    height: 120px;
+    float: left;
+}
+.vidio video{
+    width: 180px;
+   
+}
+
+.Amazing-colum {
+    width: 170px;
+    height: 345px;
+    border: solid 0.6px rgb(223, 223, 223);
+    float: left;
+    background-color: #ffffff;
+    position: absolute;
+    padding: 20px;
+    top: -24.5px;
+    right: 0px;
+}
+
+.Amazing-colum h3 {
+    padding-top: 70px;
+}
+
+.Amazing-colum p {
+    padding-top: 20px;
+    color: gray;
+}
+
+.Amazing-content-row1 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 310px);
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    margin-top: 770px;
+    top: 340px;
+}
+.inrow_block {
+    display: block;
+}
+
+
+.date {
+    width: 160px;
+    height: 30px;
+    background-color: #1eb2a6;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+}
+
+.date h3 {
+    text-align: center;
+    padding-top: 5px;
+    color: white;
+}
+.banner2 h2 {
+    position: absolute;
+    top: 180px;
+    left: 180px;
+    color: white;
+    font-size: 45px;
+}
+
+
+
+
+   
+}
+   
+
+
+
+@media (max-width: 426px) {
+     .height {
+    height: 11300px;
+}
+.content{
+    width: 400px;
+}
+.costomer{
+    margin-top: 100px;
+    position: absolute;
+}
+
+.inrow_block {
+    display: none;
+}
+.About_content{
+	width: 360px;
+	height: 250px;
+    margin-left: 50px;
+    font-size: 10px;
+}
+.About_content p{
+	
+    font-size: 10px;
+}
+.About_img{
+    
+height: 300px;
+}
+.About_img h1{
+    
+padding-left: 100px;
+padding-top: 140px;
+font-size: 20px;
+}
+
+.Harvel_content {
+    height: 660px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.banner2 h2 {
+    left: 50px;
+    font-size: 35px;
+}
+.Harvel_content p {
+    padding-top: 20px;
+
+    color: gray;
+}
+.heading{
+    font-size: 14px;
+}
+
+.Amazing-content-row {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 310px);
+    justify-content: center;
+    gap: 30px;
+    position: absolute;
+    top: 340px;
+}
+.Amazing-content-row1 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(1, 310px);
+    justify-content: center;
+    margin-top: 1160px;
+    gap: 30px;
+    position: absolute;
+    top: 340px;
+}
+.footer-top{
+    margin-top: 1200px;
+}
+
+
+}
+
+
+
+
+@media (max-width: 376px) {
+  .height {
+    height: 10500px;
+}
+.banner2 h2 {
+    left: 35px;
+    font-size: 30px;
+}
+.Harvel_content {
+    height: 720px;
+    padding: 30px;
+}
+.About_content{
+    margin-left: 20px;
+    width: 300px;
+}
+.About_img h1{
+    
+padding-left: 70px;
+}
+
+}
+@media (max-width: 320px) {
+  .height {
+    height: 9800px;
+}
+.About_img h1{
+    
+padding-left: 40px;
+}
+.About_content{
+
+    margin-left: 20px;
+}
+.costomer_col1{
+   font-size: 14px;
+}
+.costomer_col2{
+   font-size: 14px;
+}
+.costomer_col3{
+   font-size: 14px;
+}
+.costomer_col4{
+   font-size: 14px;
+}
+.costomer_col5{
+   font-size: 14px;
+}
+.costomer_contant2{
+   font-size: 14px;
+}
+.costomer_contant3{
+   font-size: 14px;
+}
+.costomer_contant5{
+   font-size: 14px;
+}
+.heading{
+    height: 250px;
+    font-size: 14px;
+}
+.Harvel_content {
+    height: 850px;
+    padding: 30px;
+    margin-top: 20px;
+}
+.btns{
+        font-size: small;
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                             /* ...........................misbah ki media qurees...................... */
+                             /* ...........................misbah ki media qurees...................... */
+                             /* ...........................misbah ki media qurees...................... */
 @media (max-width: 768px) {
 
     .detail-box {
