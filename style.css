@@ -5,9 +5,9 @@
     font-family: sans-serif;
 }
 
-          /* ................................................TAHA ki CSS........................................................ */
-          /* ................................................TAHA ki CSS........................................................ */
-          /* ................................................TAHA ki CSS........................................................ */
+/* ................................................TAHA ki CSS........................................................ */
+/* ................................................TAHA ki CSS........................................................ */
+/* ................................................TAHA ki CSS........................................................ */
 
 header {
     width: 100%;
@@ -31,6 +31,7 @@ header {
 #logo img {
     width: 100%;
 }
+
 ul {
     display: flex;
 }
@@ -52,7 +53,6 @@ a {
 
 
 a:hover {
-    color: #ffffff;
     transform: scale(2px);
 }
 
@@ -82,7 +82,7 @@ a:hover {
     right: 30px;
 }
 
-.Home_banner{
+.Home_banner {
     width: 100%;
     height: 600px;
 
@@ -203,30 +203,32 @@ a:hover {
     margin-top: 30px;
     transition: 0.3s;
 }
+
 .btn1 a {
-  text-decoration: none;
-  color: black;
+    text-decoration: none;
+    color: black;
 }
+
 .btn1 a {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 
-.btn1:hover a{
+.btn1:hover a {
     color: white;
-    
+
 }
 
 .btn1:hover {
     background-color: #1eb2a6;
-    
+
 }
 
 .height {
     background-color: #f8f9fa;
     height: 3700px;
     width: 100%;
-   
+
 }
 
 .heading {
@@ -370,9 +372,10 @@ a:hover {
     color: white;
     font-size: 58px;
 }
+
 .item_content {
-        height: 2800px;
-    }
+    height: 2800px;
+}
 
 .Amazing-content-row {
     width: 100%;
@@ -467,14 +470,16 @@ a:hover {
 .lastimg img {
     width: 100%;
 }
-.Pricelist_div{
+
+.Pricelist_div {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
 }
-.Pricelist_btn{
+
+.Pricelist_btn {
     width: 200px;
     margin: auto;
     background-color: transparent;
@@ -482,16 +487,19 @@ a:hover {
     border: solid 1px #1eb2a6;
     transition: 0.3s;
 }
-.Pricelist_btn a{
-  text-decoration: none;
-  color:  #1eb2a6;
-  padding: 30px 70px;
+
+.Pricelist_btn a {
+    text-decoration: none;
+    color: #1eb2a6;
+    padding: 30px 70px;
 }
-.Pricelist_btn:hover a{
+
+.Pricelist_btn:hover a {
     color: white;
 }
-.Pricelist_btn:hover{
-  background-color: #1eb2a6;
+
+.Pricelist_btn:hover {
+    background-color: #1eb2a6;
 }
 
 
@@ -600,13 +608,13 @@ a:hover {
     border-bottom-right-radius: 15%;
 
 } */
- /* .........................................ABOUT.................................................. */
-               /* .........................................ABOUT.................................................. */
-                     
+/* .........................................ABOUT.................................................. */
+/* .........................................ABOUT.................................................. */
 
 
 
-.About_banner{
+
+.About_banner {
     background-color: #1eb2a6;
     margin-bottom: 150px;
     width: 100%;
@@ -617,33 +625,37 @@ a:hover {
     color: white;
 }
 
-.About_main{
+.About_main {
     width: 100%;
 }
-.About_content{
-	width: 800px;
-	height: 250px;
+
+.About_content {
+    width: 800px;
+    height: 250px;
     margin-left: 180px;
 
 }
-.About_content h1{
-	padding-top: 4px;
+
+.About_content h1 {
+    padding-top: 4px;
     padding-left: 70px;
 }
-.About_content p{
-	padding-top: 20px;
+
+.About_content p {
+    padding-top: 20px;
     font-size: 14px;
     color: gray;
 }
 
-.line{
-	width: 50px;
-	height: 2px;
-	background-color: #2cb9ad;
-	float: left;
-	margin-top: 20px
+.line {
+    width: 50px;
+    height: 2px;
+    background-color: #2cb9ad;
+    float: left;
+    margin-top: 20px
 }
-.About_img{
+
+.About_img {
     width: 100%;
     height: 500px;
     background-image: url(./img/New\ york.png);
@@ -652,32 +664,36 @@ a:hover {
     color: #ffffff;
     margin-top: 150px;
     margin-bottom: 500px;
-  background-attachment: fixed;
+    background-attachment: fixed;
 
 
 }
-.About_img h1{
-    
-padding-left: 450px;
-padding-top: 200px;
-font-size: 30px;
+
+.About_img h1 {
+
+    padding-left: 450px;
+    padding-top: 200px;
+    font-size: 30px;
 }
-.costomer{
+
+.costomer {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(5,252.9px);
+    grid-template-columns: repeat(5, 252.9px);
     justify-content: center;
     margin-top: 200px;
     position: absolute;
 }
-.costomer_col1{
+
+.costomer_col1 {
     height: 300px;
-     background-color: #1eb2a6;
-     padding: 30px;
-     position: relative;
-     bottom: 0px;
+    background-color: #1eb2a6;
+    padding: 30px;
+    position: relative;
+    bottom: 0px;
 }
-.costomer_col2{
+
+.costomer_col2 {
     height: 400px;
     padding: 30px;
     background-color: #168c82;
@@ -685,80 +701,95 @@ font-size: 30px;
     position: relative;
     top: -100px;
 }
-.costomer_col3{
-      height: 350px;
+
+.costomer_col3 {
+    height: 350px;
     padding: 30px;
-     background-color: #1eb2a6;
-     position: relative;
-     top: -50px;
+    background-color: #1eb2a6;
+    position: relative;
+    top: -50px;
 }
-.costomer_col4{
+
+.costomer_col4 {
     height: 300px;
     padding: 30px;
     background-color: #168c82;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
     position: relative;
 }
-.costomer_col5{
 
-      height: 350px;
+.costomer_col5 {
+
+    height: 350px;
     padding: 30px;
-     background-color: #1eb2a6;
-     position: relative;
-     top: -50px;
+    background-color: #1eb2a6;
+    position: relative;
+    top: -50px;
 }
-.costomer_contant1{
-     width: 190px;
+
+.costomer_contant1 {
+    width: 190px;
     height: 50px;
     margin-top: 20px;
 }
-.costomer_contant1 h5{
+
+.costomer_contant1 h5 {
     padding-top: 18px;
     padding-left: 60px;
 }
 
-.costomer_contant2{
+.costomer_contant2 {
     width: 190px;
     height: 50px;
     margin-top: 140px;
 }
-.costomer_contant2 h5{
+
+.costomer_contant2 h5 {
     padding-top: 18px;
     padding-left: 60px;
 }
-.costomer_contant3{
+
+.costomer_contant3 {
     width: 190px;
     height: 50px;
     margin-top: 130px;
 }
-.costomer_contant3 h5{
+
+.costomer_contant3 h5 {
     padding-top: 18px;
     padding-left: 60px;
 }
-.costomer_contant4{
-    width: 190px;;
+
+.costomer_contant4 {
+    width: 190px;
+    ;
     height: 50px;
     margin-top: 80px;
 }
-.costomer_contant4 h5{
+
+.costomer_contant4 h5 {
     padding-top: 18px;
     padding-left: 60px;
 }
-.costomer_contant5{
+
+.costomer_contant5 {
     width: 190px;
     height: 50px;
     margin-top: 110px;
 }
-.costomer_contant5 h5{
+
+.costomer_contant5 h5 {
     padding-top: 18px;
     padding-left: 60px;
 }
-.costomer_img{
+
+.costomer_img {
     width: 50px;
     height: 50px;
     float: left;
 }
-.costomer_img img{
+
+.costomer_img img {
     width: 100%;
     border-radius: 50%;
 }
@@ -770,9 +801,9 @@ font-size: 30px;
 
 
 
-        /* ..............................................MISBAH ki css................................. */
-        /* ................................................MISBAH ki css................................. */
-        /* ...................................................MISBAH ki css................................. */
+/* ..............................................MISBAH ki css................................. */
+/* ................................................MISBAH ki css................................. */
+/* ...................................................MISBAH ki css................................. */
 
 
 
@@ -1313,9 +1344,11 @@ li a {
     font-size: large;
     color: black;
 }
-.nav-link{
+
+.nav-link {
     color: black;
 }
+
 /* footer text links */
 .footer-link {
     color: #ffffff;
@@ -1343,37 +1376,42 @@ li a {
 }
 
 
-.footer-head{
+.footer-head {
     font-size: 18px;
 }
-#price-list{
+
+#price-list {
     background-color: transparent;
     display: block;
     margin: auto;
     transition: 0.2s;
 }
-#price-list a{
+
+#price-list a {
     color: black;
     text-decoration: none;
     font-size: 20px;
 }
-#price-list:hover{
+
+#price-list:hover {
     background-color: #1eb2a6;
 }
-.bg-teal{
+
+.bg-teal {
     background-color: #1eb2a6;
 }
-.Pricelist{
+
+.Pricelist {
     margin: auto;
     padding: 30px;
     background-color: #2cb9ad;
-    border: solid ;
+    border: solid;
 }
-.footer_input{
+
+.footer_input {
     padding: 10px;
     width: 170px;
     color: white;
     border: solid 1px #ffffff;
     background-color: transparent;
 }
-

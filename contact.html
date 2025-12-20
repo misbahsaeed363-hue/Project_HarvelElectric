@@ -48,7 +48,7 @@
 </div>
 
 <body>
- 
+
 
     <main>
         <!-- slider-area start -->
@@ -57,7 +57,7 @@
                 <div class="col-md-6 col-12">
                     <div class="cb-text ">
                         <h1 class="text-white">Contact Us</h1>
-                        <p >We’re here to help. Reach out anytime !</p>
+                        <p>We’re here to help. Reach out anytime !</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-12">
@@ -85,135 +85,139 @@
                     </div>
                 </div>
                 <!-- for contact area -->
-                <form>
-                    <div class="row pt-5 pl-3 pr-3">
-                        <div class="col-12 mb-4">
-                            <h2><b>Get in Touch</b></h2>
-                        </div>
-                        <div class=" col-lg-8">
+
+                <div class="row pt-5 pl-3 pr-3">
+                    <div class="col-12 mb-4">
+                        <h2><b>Get in Touch</b></h2>
+                    </div>
+                    <div class=" col-lg-8">
+                        <form id="formData">
                             <div class="row">
                                 <div class="col-12">
                                     <div id="message-input">
-                                        <textarea placeholder="Message"></textarea>
+                                        <textarea id="message" name="message" placeholder="Message"></textarea>
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-12">
                                     <div id="name-input" class="mt-3">
-                                        <input type="text" placeholder="Enter your name">
+                                        <input id="name" name="name" type="text" placeholder="Enter your name">
                                     </div>
                                 </div>
                                 <div class="col-sm-6 col-12">
                                     <div id="email-input" class="mt-3">
-                                        <input type="text" placeholder="Email">
+                                        <input type="email" name="email" id="email" placeholder="Email">
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div id="subject-input" class="mt-3">
-                                        <input type="text" placeholder="Subject">
+                                        <input type="text" name="subject" id="subject" placeholder="Subject">
                                     </div>
                                 </div>
                                 <div class="col-12">
-                                    <button class="btns mb-3">Submit Message</button>
+                                    <button class="btns mb-3" type="button" id="submit_btn">Submit Message</button>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-4">
-                            <div class="row">
-                                <div class="col-12">
-                                    <div class="contact-icon address d-flex">
-                                        <i class="fa-solid fa-house"></i>
-                                        <div class="contact-method">
-                                            <h4>Harvel Electric — Head Office</h4>
-                                            <p>Plot #45, Industrial Area Phase 2, Karachi, Pakistan</p>
-
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="contact-icon d-flex">
-                                        <i class="fa-solid fa-mobile"></i>
-                                        <div class="contact-method">
-                                            <h4><a class="contact-ways" href="tel:+923001234567">+92 300 1234567</a>
-                                            </h4>
-                                            <p>Monday to Saturday — 9:00 AM to 6:00 PM</p>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="contact-icon d-flex">
-                                        <i class="fa-solid fa-envelope"></i>
-                                        <div class="contact-method">
-                                            <h4>
-                                                <a class="contact-ways href="
-                                                    mailto:support@harvelelectric.com">support@harvelelectric.com</a>
-                                            </h4>
-                                            <p>We respond within 24 hours!</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                            </div>
-
-                        </div>
+                        </form>
                     </div>
-                </form>
+                    <div class="col-lg-4">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="contact-icon address d-flex">
+                                    <i class="fa-solid fa-house"></i>
+                                    <div class="contact-method">
+                                        <h4>Harvel Electric — Head Office</h4>
+                                        <p>Plot #45, Industrial Area Phase 2, Karachi, Pakistan</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="contact-icon d-flex">
+                                    <i class="fa-solid fa-mobile"></i>
+                                    <div class="contact-method">
+                                        <h4><a class="contact-ways" href="tel:+923001234567">+92 300 1234567</a>
+                                        </h4>
+                                        <p>Monday to Saturday — 9:00 AM to 6:00 PM</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="contact-icon d-flex">
+                                    <i class="fa-solid fa-envelope"></i>
+                                    <div class="contact-method">
+                                        <h4>
+                                            <a class="contact-ways"
+                                                href="mailto:misbahsaeed363@gmail.com">support@harvelelectric.com</a>
+                                        </h4>
+                                        <p>We respond within 24 hours!</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
             </div>
         </section>
 
 
 
-       <footer class="bg-teal p-3 mt-5 ">
-        <div class="container">
-            <div class="row text-white">
+        <footer class="bg-teal p-3 mt-5 ">
+            <div class="container">
+                <div class="row text-white">
 
-                <!-- Column 1 -->
-                <div class="col-lg-3 col-md-6 mb-4 mt-3">
-                    <img id="footer-img" src="img/logo 1.png" alt="logo" class="img-fluid "
-                        style="max-width:150px;">
-                    <p class="footer-head">Harvel Electric brings you reliable, high-performance appliances designed
-                        for everyday
-                        comfort.</p>
-                </div>
-
-                <!-- Column 2 -->
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h3 class="text-dark fw-bold p-3">MENU</h3>
-                    <p><a href="" class="footer-link">Shipping Info</a></p>
-                    <p><a href="" class="footer-link">Refunds</a></p>
-                    <p><a href="" class="footer-link">How to Order</a></p>
-                    <p><a href="" class="footer-link">How to Track</a></p>
-                </div>
-
-                <!-- Column 3 -->
-                <div class="col-lg-3 col-md-6 mb-4">
-                    <h3 class="text-dark fw-bold p-3 ">ITEMS</h3>
-                    <p><a href="" class="footer-link ">Electric fan</a></p>
-                    <p><a href="" class="footer-link ">Electric geyser</a></p>
-                    <p><a href="" class="footer-link ">Electric LED light</a></p>
-                    <p><a href="" class="footer-link ">Electric LED Tv</a></p>
-                </div>
-
-                <!-- Column 4 -->
-                <div class="col-lg-3 col-md-6 p-3 ppol">
-                    <h3 class="text-dark fw-bold mb-3">Signup For Latest News</h3>
-
-                    <div class="d-flex   ">
-                        <input class="footer_input" type="email" class="form-control me-2 rounded-0" placeholder="Email">
-                        <button class="btn btn-outline-light rounded-0 mt-0">Submit</button>
+                    <!-- Column 1 -->
+                    <div class="col-lg-3 col-md-6 mb-4 mt-3">
+                        <img id="footer-img" src="img/logo 1.png" alt="logo" class="img-fluid "
+                            style="max-width:150px;">
+                        <p class="footer-head">Harvel Electric brings you reliable, high-performance appliances designed
+                            for everyday
+                            comfort.</p>
                     </div>
 
-                    <div class="d-flex gap-3 mt-1">
-                        <a class="social-icon" href="#"><i class="fa-brands fa-facebook"></i></a>
-                        <a class="social-icon" href="#"><i class="fa-brands fa-instagram"></i></a>
-                        <a class="social-icon" href="#"><i class="fa-brands fa-twitter"></i></a>
-                        <a class="social-icon" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                    <!-- Column 2 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <h3 class="text-dark fw-bold p-3">MENU</h3>
+                        <p><a href="" class="footer-link">Shipping Info</a></p>
+                        <p><a href="" class="footer-link">Refunds</a></p>
+                        <p><a href="" class="footer-link">How to Order</a></p>
+                        <p><a href="" class="footer-link">How to Track</a></p>
                     </div>
-                </div>
 
+                    <!-- Column 3 -->
+                    <div class="col-lg-3 col-md-6 mb-4">
+                        <h3 class="text-dark fw-bold p-3 ">ITEMS</h3>
+                        <p><a href="" class="footer-link ">Electric fan</a></p>
+                        <p><a href="" class="footer-link ">Electric geyser</a></p>
+                        <p><a href="" class="footer-link ">Electric LED light</a></p>
+                        <p><a href="" class="footer-link ">Electric LED Tv</a></p>
+                    </div>
+
+                    <!-- Column 4 -->
+                    <div class="col-lg-3 col-md-6 p-3 ppol">
+                        <h3 class="text-dark fw-bold mb-3">Signup For Latest News</h3>
+
+                        <div class="d-flex   ">
+                            <input class="footer_input" type="email" class="form-control me-2 rounded-0"
+                                placeholder="Email">
+                            <button class="btn btn-outline-light rounded-0 mt-0">Submit</button>
+                        </div>
+
+                        <div class="d-flex gap-3 mt-1">
+                            <a class="social-icon" href="#"><i class="fa-brands fa-facebook"></i></a>
+                            <a class="social-icon" href="#"><i class="fa-brands fa-instagram"></i></a>
+                            <a class="social-icon" href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a class="social-icon" href="#"><i class="fa-brands fa-linkedin"></i></a>
+                        </div>
+                    </div>
+
+                </div>
             </div>
-        </div>
-    </footer>
+                
+        </footer>
 
 
 
@@ -221,7 +225,44 @@
     </main>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="script.js"></script>
-   
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <script>
+        let btn = document.getElementById("submit_btn");
+        emailjs.init("Z6HXInF7zEXXqEygC");
+        const serviceID = "default_service";
+        const templateID = "template_i5rfj5i";
+        btn.addEventListener("click", function () {
+            // let message = document.getElementById("message").value;
+            // let email = document.getElementById("email").value;
+            // let name = document.getElementById("name").value;
+            // let subject = document.getElementById("subject").value
+            
+            // let formData = {
+                //     message: message,
+                //     email: email,
+                //     name: name,
+                //     subject: subject
+                // };
+                let form = document.getElementById("formData");
+                // console.log(formData);
+            console.log(form);
+
+            emailjs.sendForm(serviceID, templateID, form).then(
+                () => {
+                    alert("data send Successfully!")
+                   form.reset(); 
+                },
+                (err) => {
+                    alert(JSON.stringify(err));
+                }
+
+            )
+
+
+
+        });
+    </script>
+
 </body>
 
 </html>
