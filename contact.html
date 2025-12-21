@@ -39,11 +39,13 @@
 </header>
 <div class="sidebar">
     <ul>
-        <li class="sidebar-list"></li>
+        <li class="sidebar-list" id="sb-btn">
+            <i class="fa-solid fa-xmark" onclick="closeSidebar()"></i>
+        </li>
         <li class="sidebar-list"><a href="index.html">HOME</a></li>
         <li class="sidebar-list"><a href="About.html">ABOUT US</a></li>
         <li class="sidebar-list"><a href="product.html">PRODUCTS</a></li>
-        <li class="sidebar-list"><a href="">CONTACT US</a></li>
+        <li class="sidebar-list"><a href="contact.html">CONTACT US</a></li>
     </ul>
 </div>
 
@@ -236,21 +238,21 @@
             // let email = document.getElementById("email").value;
             // let name = document.getElementById("name").value;
             // let subject = document.getElementById("subject").value
-            
+
             // let formData = {
-                //     message: message,
-                //     email: email,
-                //     name: name,
-                //     subject: subject
-                // };
-                let form = document.getElementById("formData");
-                // console.log(formData);
+            //     message: message,
+            //     email: email,
+            //     name: name,
+            //     subject: subject
+            // };
+            let form = document.getElementById("formData");
+            // console.log(formData);
             console.log(form);
 
             emailjs.sendForm(serviceID, templateID, form).then(
                 () => {
                     alert("data send Successfully!")
-                   form.reset(); 
+                    form.reset();
                 },
                 (err) => {
                     alert(JSON.stringify(err));
