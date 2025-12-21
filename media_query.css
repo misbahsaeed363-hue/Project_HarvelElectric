@@ -276,7 +276,11 @@ font-size: 30px;
 
 
 
-
+@media (max-width: 1440px){
+    footer{
+        margin-top: 140px;
+    }
+}
 
 
 
